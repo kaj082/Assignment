@@ -1,0 +1,27 @@
+. WeatherDetailCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #eeee;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.label_value_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.label {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  color: #0b0a0a;
+  text-transform: capitalize;
+  text-align: left;
+}
+.value {
+  font-size: 16px;
+  font-weight: normal;
+  color: #070606;
+}
